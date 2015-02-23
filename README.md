@@ -5,12 +5,12 @@ It's a part of Yoso Starterkit which use browserify. The directive can be used b
 
 ### Install
 ```bash
-$ npm install --save git@github.com:nahody/yoso-browserify.git
-$ npm install --save yoso-browserify
+$ npm install --save git@github.com:nahody/yoso-browsehappy.git
+$ npm install --save yoso-browsehappy
 ```
 
 ### Usage
 ```javascript
     angular.module('app.common.directives', [])
-  .directive('yosoBrowserify', require('yoso-browserify'));
+  .directive('yosoBrowsehappy', require('yoso-browsehappy'));
  ```
