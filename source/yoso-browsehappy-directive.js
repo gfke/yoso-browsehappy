@@ -1,0 +1,7 @@
+/**
+ * yoso browsehappy
+ *
+ *
+ */
+'use strict';
+
