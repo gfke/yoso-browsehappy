@@ -2,11 +2,11 @@
     "name": "yoso-browsehappy",
     "description": "An example project for creating a directive module using the yoso-gulp package.",
     "version": "0.0.1",
-    "homepage": "https://github.com/gfke/yoso-browserify",
-    "bugs": "https://github.com/gfke/yoso-browserify/issues",
+    "homepage": "https://github.com/gfke/yoso-browsehappy",
+    "bugs": "https://github.com/gfke/yoso-browsehappy/issues",
     "license": "none",
-    "main": "source/yoso-browserify-directive.js",
-    "style": "source/yoso-browserify-directive.scss",
+    "main": "source/yoso-browsehappy-directive.js",
+    "style": "source/yoso-browsehappy-directive.scss",
     "author": {
         "name": "Jan Nahody",
         "email": "jan.nahody@gmail.com",
@@ -15,7 +15,7 @@
     "contributors": [],
     "repository": {
         "type": "git",
-        "url": "https://github.com/gfke/yoso-browserify"
+        "url": "https://github.com/gfke/yoso-browsehappy"
     },
     "engines": {
         "node": ">=0.10.0"
