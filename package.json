@@ -1,5 +1,5 @@
 {
-    "name": "yoso-browserify",
+    "name": "yoso-browsehappy",
     "description": "An example project for creating a directive module using the yoso-gulp package.",
     "version": "0.0.1",
     "homepage": "https://github.com/gfke/yoso-browserify",
