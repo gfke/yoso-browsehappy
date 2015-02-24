@@ -29,8 +29,5 @@
         "transform": [
             "partialify"
         ]
-    },
-    "dependencies": {
-        "modernizr": "^3.0.0-alpha"
     }
 }
