@@ -21,7 +21,7 @@
  * @param {Function(Error)} cb Callback for what so ever
  */
 module.exports =
-    function yosoBrowsehappyDirective($angularDependency1, npmDependency1, cb) {
+    function yosoBrowsehappyDirective() {
         return {
             restrict: 'E',
             template: require('./yoso-browsehappy-directive-template.html'),
