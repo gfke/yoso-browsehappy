@@ -1,4 +1,4 @@
-#yoso-browsehappy {
+.yoso-browsehappy {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,4 +7,9 @@
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     z-index: 99999;
+    display: none;
+
+    &.visible {
+        display: block;
+    }
 }
