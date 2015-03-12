@@ -1,7 +1,7 @@
 {
     "name": "yoso-browsehappy",
-    "description": "An example project for creating a directive module using the yoso-gulp package.",
-    "version": "0.0.1",
+    "description": "An angular js directive for detect browser capabilities and show warning on missed app requirements.",
+    "version": "1.0.0",
     "homepage": "https://github.com/doroppu/yoso-browsehappy",
     "bugs": "https://github.com/doroppu/yoso-browsehappy/issues",
     "license": "none",
