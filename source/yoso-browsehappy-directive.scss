@@ -1,3 +1,14 @@
+// variables
+$browsehappy--font-color:                 rgb(0, 0, 0);
+$browsehappy--background-color:           rgb(255, 255, 255);
+$browsehappy__message--font-color:        rgba(0, 0, 0, 0.6);
+$browsehappy__signal--background-color:   rgb(211, 61, 57);
+$browsehappy__signal--font-color:         rgb(255, 255, 255);
+$browsehappy__success--background-color:  rgb(145, 205, 0);
+$browsehappy__success--font-color:        rgb(255, 255, 255);
+
+
+// classes
 .yoso-browsehappy {
     position: fixed;
     top: 0;
@@ -5,11 +16,89 @@
     bottom: 0;
     right: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
+    background-color: $browsehappy--background-color;
+    color: $browsehappy--font-color;
     z-index: 99999;
     display: none;
+    padding: 2rem 1rem;
 
     &.visible {
         display: block;
+    }
+
+    .oops {
+        display: inline-block;
+        box-sizing: border-box;
+        background-color: $browsehappy__signal--background-color;
+        border-radius: 100% 0 100% 100%;
+        font-family: serif;
+        font-weight: 100;
+        font-size: 3rem;
+        color: $browsehappy__signal--font-color;
+        text-transform: uppercase;
+        overflow: hidden;
+        width: 12rem;
+        height: 12rem;
+        line-height: 12rem;
+    }
+
+    h1 {
+        font-family: serif;
+        font-weight: normal;
+        font-size: 2.6rem;
+        margin-top: 2rem;
+    }
+
+    p {
+        color: $browsehappy__message--font-color;
+    }
+
+    a {
+        color: $browsehappy__signal--background-color;
+
+        &:link {
+            color: $browsehappy__signal--background-color;
+        }
+
+        &:hover {
+            color: $browsehappy__signal--background-color;
+            text-decoration: underline;
+        }
+
+        &:active {
+            color: $browsehappy__signal--background-color;
+            text-decoration: underline;
+        }
+
+        &:visited {
+            color: $browsehappy__signal--background-color;
+        }
+
+        &:focus {
+            color: $browsehappy__signal--background-color;
+            text-decoration: underline;
+        }
+    }
+
+    ul.function-list {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 50%;
+
+        li {
+            display: inline-block;
+            box-sizing: border-box;
+            background-color: $browsehappy__success--background-color;
+            color: $browsehappy__success--font-color;
+            padding: 0.3rem 1rem;
+            border-radius: 99999em;
+            margin: 0.5em;
+
+            &.invalid {
+                background-color: $browsehappy__signal--background-color;
+                color: $browsehappy__signal--font-color;
+            }
+        }
     }
 }

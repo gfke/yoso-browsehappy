@@ -1,18 +1,15 @@
 <!-- browse happy -->
 <div class="yoso-browsehappy" ng-class="{'visible': invalid}">
+    <div class="oops">Oops!</div>
     <h1>Your browser does not satisfy met for our website.</h1>
 
-    <div class="no-js" ng-class="{'invisible': invalid}">
-        Please enable Javascript for viewing.
-    </div>
-
-    <div class="outdated-browser" ng-class="{'visible': invalid}">
-        You are using an <i>outdated</i> browser.<br>
+    <p class="outdated-browser" ng-class="{'visible': invalid}">
+        You are using an <strong>outdated</strong> browser.<br>
         Please upgrade your browser to improve your experience.<br>
         <a href="http://outdatedbrowser.com/" target="_blank">Update now</a>
 
-        <ul>
-            <li ng-repeat="item in validationList">{{item.name}} - {{item.valid}}</li>
-        </ul>
-    </div>
+    <ul class="function-list">
+        <li ng-repeat="item in validationList" ng-class="{'invalid': !item.valid}">{{item.name}}</li>
+    </ul>
+    </p>
 </div>
