@@ -31,7 +31,7 @@ The colors are specified as SCSS variables, which can be simple overwritten/rede
 | Variable | description  | default value |
 | -------- | ------------ | ------------- |
 | $browsehappy--font-color | The block font color  | rgb(0, 0, 0) |
-| $browsehappy--background-color The block background color. The block goes over the full viewport. |            | rgb(255, 255, 255) |
+| $browsehappy--background-color  | The block background color. The block goes over the full viewport.           | rgb(255, 255, 255) |
 | $browsehappy__message--font-color |  Paragraph font color. Is used for the message description.       | rgba(0, 0, 0, 0.6) |
 | $browsehappy__signal--background-color | The signal (opps) background color. Is also used as link font color and invalid list item background color.   | rgb(211, 61, 57) |
 | $browsehappy__signal--font-color |  The signal (opps) font color. Is also used as list item font color.        | rgb(255, 255, 255) |
