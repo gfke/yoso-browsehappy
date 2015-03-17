@@ -1,3 +1,7 @@
+# 1.1.1
+
+- Change module registration. 
+
 # 1.1.0
 
 - Add styling for nice layout. 

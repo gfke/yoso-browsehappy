@@ -20,8 +20,8 @@
  * @param {Array.<String>} npmDependency1 some package
  * @param {Function(Error)} cb Callback for what so ever
  */
-module.exports =
-    function yosoBrowsehappyDirective() {
+module.exports = function(ngModule) {
+    ngModule.directive('yosoBrowsehappy',[function() {
         return {
             restrict: 'E',
             template: require('./yoso-browsehappy-directive-template.html'),
@@ -44,4 +44,5 @@ module.exports =
                 });
             }
         };
-    };
+    }]);
+};
