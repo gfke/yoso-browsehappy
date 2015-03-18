@@ -1,24 +1,16 @@
-/** @namespace exampleDirective
- *  @desc ExampleModule API
- * Some general description for the exampleDirective below
- *
- * Markdown can be used in the descriptions
- * -----------------
- *
- * We can `use` [all of that](http://daringfireball.net/projects/markdown/) in our *Docs*.
+/** @namespace yosoBrowsehappy
+ *  @desc An angular js directive for detect browser capabilities and show warning on missed app requirements.
  */
 
+require('./yoso-browsehappy-directive.scss');
 /**
  *
- * Add here details for the constructor function of the directive
- * and its dependency parameters
+ * Provide the angular module as parameter to the require function and it will register itself
  *
- * @name exampleDirective
- * @memberof exampleDirective
+ * @name yosoBrowsehappy
+ * @memberof yosoBrowsehappy
  * @function
- * @param {Object} $angularDependency1 some Angular service
- * @param {Array.<String>} npmDependency1 some package
- * @param {Function(Error)} cb Callback for what so ever
+ * @param {Object} ngModule the angular module on which this directive should be registered
  */
 module.exports = function(ngModule) {
     ngModule.directive('yosoBrowsehappy',[function() {
