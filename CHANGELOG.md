@@ -1,3 +1,7 @@
+# 2.0.0
+
+- Integrate webpack
+
 # 1.1.1
 
 - Change module registration. 
