@@ -1,5 +1,7 @@
 # Yoso Browsehappy
-
+    
+[![wercker status](https://app.wercker.com/status/13db92fee21977e236a38ded45a6eea8/m "wercker status")](https://app.wercker.com/project/bykey/13db92fee21977e236a38ded45a6eea8)
+    
 An angular js directive for detect browser capabilities and show warning on missed app requirements.    
 If the browser missed required capabilities the user get a link to [outdatedbrowser](http://outdatedbrowser.com/) where he can update.    
 The browser capabilities are detected using [Modernirz](http://modernizr.com/), which must be already implemented inside the project. 
