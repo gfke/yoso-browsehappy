@@ -1,4 +1,4 @@
-box: wercker/nodejs
+box: nahody/nodejs
 # Build definition
 build:
   # The steps that will be executed on build

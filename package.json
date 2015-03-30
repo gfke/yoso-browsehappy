@@ -1,7 +1,7 @@
 {
     "name": "yoso-browsehappy",
     "description": "An angular js directive for detect browser capabilities and show warning on missed app requirements.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "homepage": "https://github.com/doroppu/yoso-browsehappy",
     "bugs": "https://github.com/doroppu/yoso-browsehappy/issues",
     "license": "none",
@@ -18,12 +18,12 @@
         "url": "https://github.com/doroppu/yoso-browsehappy"
     },
     "engines": {
-        "node": ">=0.10.0"
+        "node": ">=0.12.0"
     },
     "devDependencies": {
         "gulp": "^3.8.11",
         "partialify": "^3.1.3",
-        "yoso-gulp": "git://github.com/doroppu/yoso-gulp"
+        "yoso-gulp": "^2.5.0"
     },
     "browserify": {
         "transform": [
