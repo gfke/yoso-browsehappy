@@ -1,4 +1,4 @@
-box: nahody/nodejs
+box: nodesource/vivid:0.12.4
 # Build definition
 build:
   # The steps that will be executed on build
@@ -11,3 +11,4 @@ deploy:
         username: $NPM_PUBLISH_USERNAME
         email: $NPM_PUBLISH_EMAIL
         password: $NPM_PUBLISH_PASSWORD
+        token: $NPM_PUBLISH_TOKEN
