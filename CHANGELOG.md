@@ -1,3 +1,7 @@
+# 2.0.4
+
+- Update message text.
+
 # 2.0.0
 
 - Integrate webpack
